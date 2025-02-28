@@ -1,0 +1,66 @@
+.navbar_color{
+    background-color: #0a2066;
+}
+
+.a_color{
+    color: aliceblue;
+}
+
+.li_color{
+    color: rgba(255, 255, 255, 0.2);
+    color: #D1D5DB;
+    color: #93C5FD;
+    color: #9aa6ca;
+}
+
+.toggler_color{
+    /* background-color: aliceblue; */
+}
+
+.button_color{
+    background-color: #9aa6ca;
+    color: whitesmoke;
+}
+
+.button_color:hover{
+    color: #f8f9fa;
+    border-color: #f8f9fa;
+
+
+    --bs-btn-focus-shadow-rgb: 248, 249, 250;
+    --bs-btn-active-color: #000;
+    --bs-btn-active-bg: #f8f9fa;
+    --bs-btn-active-border-color: #f8f9fa;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #f8f9fa;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: #f8f9fa;
+    --bs-gradient: none;
+}
+
+#main-body{
+    background-image: url(images/code.avif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh; 
+}
+
+
+
+.p_inicio{
+    background-color: rgba(51, 51, 51, 0.5);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    color: #F5F5F5;
+    
+}
+
+.main-column{
+    height: 400px ;
+}
+
+
+.footer-columns{
+    color: white;
+}
