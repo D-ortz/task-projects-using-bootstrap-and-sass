@@ -31,28 +31,14 @@ Este proyecto simula botones con enlaces, para explorar todo el contenido tienes
 ## Instalación y Configuración
 1. Clona el repositorio:
    ```sh
-   git clone https://github.com/usuario/proyecto-web.git
+   git clone https://github.com/D-ortz/DevTracker-Bootstrap.git
    ```
 2. Accede al directorio del proyecto:
    ```sh
-   cd proyecto-web
-   ```
-3. Instala las dependencias necesarias:
-   ```sh
-   npm install
-   ```
-4. Inicia el servidor:
-   ```sh
-   npm start
-   ```
-5. Accede a la aplicación en el navegador:
-   ```
-   http://localhost:3000
+   cd clase 6
    ```
 
-## Contribuciones
-Si deseas contribuir al proyecto, puedes realizar un fork del repositorio y enviar un pull request con tus mejoras.
+   ```
 
-## Licencia
-Este proyecto está bajo la licencia MIT.
+
 
