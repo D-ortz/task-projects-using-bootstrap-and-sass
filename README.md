@@ -24,8 +24,8 @@ Este proyecto simula botones con enlaces, para explorar todo el contenido tienes
      - Ver la lista de sus proyectos existentes.
 
 ## Tecnologías Utilizadas
-- **Frontend**: HTML, CSS, JavaScript
-- **Backend**: Node.js, Express
+- **Frontend**: HTML, CSS, JavaScript, Bootstrap
+- **Backend**: En proceso
 - **Base de Datos**: (Dependiendo del almacenamiento elegido, puede ser MySQL, MongoDB, etc.)
 
 ## Instalación y Configuración
