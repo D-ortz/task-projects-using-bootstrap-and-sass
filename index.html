@@ -22,10 +22,9 @@
               <li class="nav-item">
                 <a class="nav-link active li_color" aria-current="page" href="#">Inicio</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link li_color" href="newlp.html">Link</a>
-              </li>
-              <li class="nav-item dropdown">
+
+              <!-- SE DESPLEGARA CUANDO SE INICIE SESION -->
+              <!-- <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle li_color" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Proyectos
                 </a>
@@ -34,12 +33,12 @@
                   <li><a class="dropdown-item" href="newlp2.html">Añadir nuevo proyecto</a></li>
                   <li><a class="dropdown-item" href="#">Editar un proyecto</a></li>
                 </ul>
-              </li>
+              </li> -->
             </ul>
-            <form class="d-flex" role="search">
+            <form class="d-flex">
               <!-- <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"> -->
               <a class="btn button_color me-2" href="login.html" >Iniciar sesión</a>
-              <a class="btn button_color">Registrarse</a>
+              <a class="btn button_color" href="registro.html">Registrarse</a>
             </form>
           </div>
         </div>
@@ -47,16 +46,6 @@
 
 
 
-      <!-- <main class="container p-5 ">
-        <div class="row  p_inicio" style="height: 550px;">
-          <div class="col-12 d-flex justify-content-center align-items-center p-5 ">
-            <p class="fs-4 fw-bold">📌 Organiza, gestiona y sigue tus proyectos de desarrollo en un solo lugar.</p>
-            
-            <p class="fs-6 fw-bold">Sabemos que el desarrollo de software puede ser desafiante: múltiples proyectos, tareas pendientes y fechas límite. DevTracker está diseñado para ayudarte a mantener el control de tu flujo de trabajo, colaborar con tu equipo y mejorar tu productividad.</p> 
-          </div>
-        
-        </div>
-      </main> -->
 
 
 
@@ -72,20 +61,20 @@
 
 
 
-      <div id="carouselExampleIndicators" class="carousel slide mt-5">
+      <div id="carouselExampleIndicators" class="carousel slide mt-4 ">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
         <div class="carousel-inner">
-          <div class="carousel-item active" style="max-height: 700px;">
+          <div class="carousel-item active" style="max-height: 500px;">
             <img src="images/code.avif" class="d-block w-100 h-100 object-fit-contain" style="max-height: 700px;" alt="...">
           </div>
-          <div class="carousel-item" style="max-height: 700px;">
+          <div class="carousel-item" style="max-height: 500px;">
             <img src="images/code.avif" class="d-block w-100 h-100 object-fit-contain" style="max-height: 700px;" alt="..." ge>
           </div>
-          <div class="carousel-item" style="max-height: 700px;">
+          <div class="carousel-item" style="max-height: 500px;">
             <img src="images/code.avif" class="d-block w-100 h-100 object-fit-contain" style="max-height: 700px;" alt="...">
           </div>
         </div>
@@ -100,10 +89,11 @@
       </div>
 
 
-      <footer class="container-fluid bg-dark p-3" data-bs-theme="dark">
+      <footer class="container-fluid fixed-bottom bg-dark-subtle p-3" data-bs-theme="dark">
         <div class="row " >
-          <div class="col-4 border rounded footer-columns text-center">
+          <div class="col-md-4 col-sm-6  footer-columns-color text-center">
             <p class="lead ">Redes sociales</p>
+            <hr>
             <div class="row">
               <div class="col-6">
                 <ul class="navbar-nav">
@@ -121,15 +111,8 @@
               </div>
 
             </div>
-            <!-- <ul>
-                    <li><a href="" class="nav-link link-underline-opacity-0 mt-4">Proyecto 1</a></li>
-                    <li><a href="" class="nav-link link-underline-opacity-0 mt-4">Proyecto 2</a></li>
-                    <li><a href="" class="nav-link link-underline-opacity-0 mt-4">Proyecto 3</a></li>
-                    <li><a href="" class="nav-link link-underline-opacity-0 mt-4">Proyecto 4</a></li>
-                    <li><a href="" class="nav-link link-underline-opacity-0 mt-4">Proyecto 5</a></li>
-            </ul> -->
           </div>
-          <div class="col-5">
+          <div class="col-md-5 col-sm-6">
             <div class="card">
               <div class="card-header" >
                 Quote
@@ -142,70 +125,13 @@
               </div>
             </div>
           </div>
-          <div class="col-3 border rounded footer-columns">
+          <div class="col-md-3 col-sm-12   footer-columns-color">
+           <hr class="d-sm-block d-md-none">
             <p class="lead text-center">Esto es otro contenido</p>
+            <hr>
           </div>
         </div>
       </footer>
-
-      <!-- <main class="container p-5">
-        <div class="row p_inicio" style="height: 440px;">
-          <div class="col-12 p-5">
-            <p class="fs-4 fw-bold">📌 Organiza, gestiona y sigue tus proyectos de desarrollo en un solo lugar.</p>
-            <p>Sabemos que el desarrollo de software puede ser desafiante: múltiples proyectos, tareas pendientes y fechas límite. DevTracker está diseñado para ayudarte a mantener el control de tu flujo de trabajo, colaborar con tu equipo y mejorar tu productividad.</p> 
-          </div>
-        </div>
-      </main>
-      
-
-
-
-      <div class="d-flex justify-content-center align-items-center bg-light" style="height: 100px;" >
-        <div class="row ">
-          <div class="col">
-            One of three columns
-          </div>
-          <div class="col">
-            One of three columns
-          </div>
-          <div class="col">
-            One of three columns
-          </div>
-        </div>
-      </div>
-
-      <div class="container text-center bg-success">
-        <div class="row align-items-center " style="height: 200px;">
-          <div class="col border h-50 d-flex align-items-center justify-content-center ">One of threee columns</div>
-          <div class="col border">One of three columns</div>
-          <div class="col border">One of three columns</div>
-        </div>
-      </div>
-      
-
-      
-
-
-      <div class="container  p-5 bg-light">
-        <div class="row">
-          <div class="col bg-danger">Hola</div>
-        </div>
-      </div>
-    
-      <div class="container text-center bg-danger">
-        <div class="row align-items-center" style="height: 100px;">
-          <div class="col d-flex align-items-center justify-content-center border">
-            One of three columns
-          </div>
-          <div class="col d-flex align-items-center justify-content-center border">
-            One of three columns
-          </div>
-          <div class="col d-flex align-items-center justify-content-center border">
-            One of three columns
-          </div>
-        </div>
-      </div>
-       -->
 
 
 </body>

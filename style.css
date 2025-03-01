@@ -61,6 +61,26 @@
 }
 
 
-.footer-columns{
+.footer-columns-color{
     color: white;
+}
+
+@media(min-width:576px){
+    #main-body{
+        background-image: url(images/code.avif);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh; 
+    }
+}
+
+@media(min-width:1024px){
+    #main-body{
+        background-image: url(images/code.avif);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh; 
+    }
 }
