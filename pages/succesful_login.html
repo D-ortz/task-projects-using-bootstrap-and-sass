@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+   <link rel="stylesheet" href="/css/style.css">
+
+    <title>Sesion iniciada</title>
+</head>
+
+<body id="main-body" class="bg-dark d-flex flex-column min-vh-100">    <!--Main body para aplicar fondo responsive--> 
+
+  <!-- NAVBAR -->
+    <nav class="navbar  navbar-expand-lg  bg-body-tertiary p-0" data-bs-theme="dark">
+        <div class="container-fluid navbar_color p-3">
+          <a class="navbar-brand a_color fw-bold" href="#">DevTracker</a>
+          <button class="navbar-toggler toggler_color " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon" ></span>
+          </button>
+          <div class="collapse navbar-collapse a_color" id="navbarSupportedContent">
+            <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active li_color" aria-current="page" href="#">Inicio</a>
+              </li>
+              <!-- SE DESPLEGARA CUANDO SE INICIE SESION -->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle li_color" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Proyectos
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a href="mis_proyectos.html" class="dropdown-item">Mis proyectos</a></li>
+                  <li><a class="dropdown-item" href="agregar.html">Añadir nuevo proyecto</a></li>
+                  <li><a class="dropdown-item" href="#">Editar un proyecto</a></li>
+                </ul>
+              </li>
+            </ul>
+            <div class="d-flex">
+              <label for="">Sesión iniciada/Usuario</label>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+
+
+
+
+
+      
+      <div class="container mt-5">
+        <div class="row p_inicio align-items-center px-3" style="height: 400px;">
+          <div class="col-5 ">
+           <p class="fs-4 fw-bold alig">📌 Organiza, gestiona y sigue tus proyectos de desarrollo en un solo lugar.</p></div>
+          <div class="col-7 ">
+            <p class="fw-bold">Sabemos que el desarrollo de software puede ser desafiante: múltiples proyectos, tareas pendientes y fechas límite. DevTracker está diseñado para ayudarte a mantener el control de tu flujo de trabajo, colaborar con tu equipo y mejorar tu productividad.</p></div>
+        </div>
+      </div>
+
+
+<!-- CARRUSEL -->
+      <div id="carouselExampleIndicators" class="carousel slide mt-5">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" style="max-height: 700px;">
+            <img src="images/code.avif" class="d-block w-100 h-100 object-fit-contain" style="max-height: 700px;" alt="...">
+          </div>
+          <div class="carousel-item" style="max-height: 700px;">
+            <img src="images/code.avif" class="d-block w-100 h-100 object-fit-contain" style="max-height: 700px;" alt="..." ge>
+          </div>
+          <div class="carousel-item" style="max-height: 700px;">
+            <img src="images/code.avif" class="d-block w-100 h-100 object-fit-contain" style="max-height: 700px;" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+<!-- FOOTER -->
+
+<footer class="container-fluid mt-auto bg-dark-subtle p-3" data-bs-theme="dark">
+  <div class="row " >
+    <div class="col-md-4 col-sm-6  footer-columns-color text-center">
+      <p class="lead ">Redes sociales</p>
+      <hr>
+      <div class="row">
+        <div class="col-6">
+          <ul class="navbar-nav">
+            <li><a href="" class="nav-link link-underline-opacity-0 ">Red Social 2</a></li>
+            <li><a href="" class="nav-link link-underline-opacity-0 ">Red Social 3</a></li>
+            <li><a href="" class="nav-link link-underline-opacity-0 ">Red Social 1</a></li>
+          </ul>
+        </div>
+        <div class="col-6">
+          <ul class="navbar-nav">
+            <li><a href="" class="nav-link link-underline-opacity-0 ">Red Social 2</a></li>
+            <li><a href="" class="nav-link link-underline-opacity-0 ">Red Social 3</a></li>
+            <li><a href="" class="nav-link link-underline-opacity-0 ">Red Social 1</a></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+    <div class="col-md-5 col-sm-6">
+      <div class="card">
+        <div class="card-header" >
+          Quote
+        </div>
+        <div class="card-body">
+          <blockquote class="blockquote mb-0">
+            <p>La programación es el arte de enseñarle a la máquina a soñar en código.</p>
+            <div class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></div>
+          </blockquote>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3 col-sm-12   footer-columns-color">
+     <hr class="d-sm-block d-md-none">
+      <p class="lead text-center">Esto es otro contenido</p>
+      <hr>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

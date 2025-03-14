@@ -1,0 +1,20 @@
+@use 'variables' as *;
+
+
+@mixin responsive-bg ($bg_image){
+    background: url(#{$bg_image}) center / cover no-repeat;
+    height: 100vh;
+  }
+  
+  @media (min-width: 576px) {
+    #main-body {
+      @include responsive-bg($bg_image);
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    #main-body {
+      @include responsive-bg($bg_image);
+    }
+  }
+  

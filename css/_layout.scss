@@ -1,0 +1,17 @@
+@use 'variables' as *;
+
+#main-body {
+  background: url(/images/code.avif) center / cover no-repeat;
+  height: 100vh;
+}
+
+.p_inicio {
+  background-color: rgba(51, 51, 51, 0.5);
+  box-shadow: $shadow;
+  border-radius: 10px;
+  color: #F5F5F5;
+}
+
+.main-column {
+  height: 400px;
+}
