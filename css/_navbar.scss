@@ -1,0 +1,19 @@
+@use 'variables' as *;
+
+.navbar_color {
+  background-color: $navbar_color;
+}
+
+.a_color {
+  color: $a_color;
+}
+
+.li_color {
+  @each $color in $li_colors {
+    color: $color;
+  }
+}
+
+.custom_links:hover{
+  text-decoration: underline;
+}
